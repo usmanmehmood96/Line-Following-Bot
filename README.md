@@ -2,8 +2,14 @@
 Line following bot code for AirTech
 
 What works:
-- Bot moves forward, left, right and adjusts it's position according to the line.
+- Bot follows the line pretty smoothly.
 - Left turn algorithm.
 
-What doesn't work:
-- Donno. Haven't even tested this thing in an arena.
+What Doesn't Work:
+- Gets confused at sharp turns, has unpridictable behaviour. 
+
+To Do:
+- Lots of testing to fine-tune the motor speed constants.
+- Add an automatic calibration function, use a button and an LED.
+- Use encoder to help identify different intersections.
+- Use faster motors.
